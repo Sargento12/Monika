@@ -1,0 +1,20 @@
+body{
+  background-image: url(https://user-images.githubusercontent.com/36512990/65302613-53650f80-db41-11e9-9c01-e4a5aedd047c.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#menu{
+  text-align: center;
+  font-size: 2rem;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font: bold
+}
+input{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font: bold;
+  border: none;
+  background-color: pink;
+  padding: 12px 30px;
+  width: 40%;
+  margin-top: 40px;
+}
