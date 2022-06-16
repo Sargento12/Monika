@@ -6,23 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="random 2.css" />
+    <script src="random"></script>
   </head>
   <body>
     <audio id="passar">
       <source src="hover.mp3" type="audio/mpeg" />
     </audio>
 
-    <div id="menu">
-      <p id="gay">Monika quer te mostrar algo,deseja ver?</p>
+    <main id="menu">
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          ><img src="sim.png" alt="sim" onmouseenter="playAudio()" />
+        </a>
+        
+        <a href="https://www.youtube.com/watch?v=WxFjR3WQylg"
+          ><img src="nao.png" alt="não" onmouseenter="playAudio()"
+        /></a>
+    </main>
 
-      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-        <button onmouseenter="playAudio()" type="button">Sim</button>
-      </a>
-
-      <a href="https://www.youtube.com/watch?v=WxFjR3WQylg"
-        ><button onmouseenter="playAudio()" type="button">Não</button></a
-      >
+    <footer>
+    <div id="texto">
+      <img src="texto.png" alt="" />
     </div>
+  </footer>
 
     <script>
       var sim = document.getElementById('passar')
