@@ -7,14 +7,16 @@ body{
   text-align: center;
   font-size: 2rem;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font: bold
-}
-button{
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font: bold;
-  border: none;
-  background-color: pink;
-  padding: 12px 30px;
-  width: 40%;
-  margin-top: 40px;
+  margin: 40px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+}
+#texto{
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
 }
